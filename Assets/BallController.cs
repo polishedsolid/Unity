@@ -48,6 +48,7 @@ public class BallController : MonoBehaviour {
 	{
 		//それと衝突した
 		print("Collision: Cube");
+		ParticleEffect(obj);
 		Destroy(obj, 1.0f);
 		ChangeFloorColor ();
 		CountUp();
@@ -64,5 +65,12 @@ public class BallController : MonoBehaviour {
 	{
 		GameObject.Find ("Floor").GetComponent<FloorController> ().ChangeColor ();
 	}
-	
+
+	public GameObject Perticle;
+
+	void ParticleEffect(GameObject obj)
+	{
+		var p = Instantiate(Perticle, obj.transform.position , Quaternion.identity);	
+		Destroy (p, 1.0f);
+	}
 }

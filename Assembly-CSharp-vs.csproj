@@ -46,9 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Collision.cs" />
+     <Compile Include="Assets\BallController.cs" />
+     <Compile Include="Assets\Counter.cs" />
      <Compile Include="Assets\CubeController.cs" />
-     <Compile Include="Assets\RollControl.cs" />
+     <Compile Include="Assets\FloorController.cs" />
+     <Compile Include="Assets\RacketController.cs" />
+     <Compile Include="Assets\ResetButton.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

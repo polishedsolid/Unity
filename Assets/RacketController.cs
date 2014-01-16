@@ -52,10 +52,12 @@ public class RacketController : MonoBehaviour {
 	float GetMin()
 	{
 		return GameObject.Find("Left").transform.position.x;
+		//return 0.0f;
 	}
 
 	float GetMax()
 	{
 		return GameObject.Find("Right").transform.position.x;
+		//return 0.0f;
 	}
 }

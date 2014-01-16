@@ -15,7 +15,7 @@ public class FloorController : MonoBehaviour {
 
 	public void ChangeColor()
 	{
-		//renderer.material.color = new Color (Random.Range (0.0f, 1.0f), Random.Range (0.0f, 1.0f), Random.Range (0.0f, 1.0f));
-		//renderer.material.color = new Color(128,64,128);
+		renderer.material.color = new Color (Random.Range (0.0f, 1.0f), Random.Range (0.0f, 1.0f), Random.Range (0.0f, 1.0f));
+		renderer.material.color = new Color(128,64,128);
 	}
 }

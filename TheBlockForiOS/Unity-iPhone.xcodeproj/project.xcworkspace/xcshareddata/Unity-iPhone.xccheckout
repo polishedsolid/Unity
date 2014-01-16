@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>758E5020-CDB6-426F-AD6D-BE8D909B62B8</string>
+	<string>004330F2-2D8E-4ACD-8FD6-A78DA938586D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Unity-iPhone</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D44C4BBF-AB12-476E-94A0-9D3A16D412DF</key>
+		<key>57AFEB21-A71E-4548-B6B3-DECA04FF5430</key>
 		<string>https://github.com/polishedsolid/Unity.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TheBlockForiOS/Unity-iPhone.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D44C4BBF-AB12-476E-94A0-9D3A16D412DF</key>
+		<key>57AFEB21-A71E-4548-B6B3-DECA04FF5430</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D44C4BBF-AB12-476E-94A0-9D3A16D412DF</string>
+	<string>57AFEB21-A71E-4548-B6B3-DECA04FF5430</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D44C4BBF-AB12-476E-94A0-9D3A16D412DF</string>
+			<string>57AFEB21-A71E-4548-B6B3-DECA04FF5430</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Unity</string>
 		</dict>

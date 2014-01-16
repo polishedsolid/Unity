@@ -21,13 +21,16 @@ public class ResetButton : MonoBehaviour {
 
 	void OnGUI()
 	{
-		var rect = new Rect (x, y, width, height);
+		var xx = Screen.width * 8 / 10;
+		var yy = Screen.height * 8 / 10;
+		var rect = new Rect (xx, yy, width, height);
 		bool isClicked = GUI.Button (rect, "Reset");
 		if (isClicked)
 		{
 			if (refObj == null) return;
 			var obj = refObj.GetComponent<BallController>();
 			obj.FirstVelocity();
+			//Application.LoadLevel(0);
 		}
 	}
 }
